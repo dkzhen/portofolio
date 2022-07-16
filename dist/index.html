@@ -1,0 +1,341 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Desain by Tailwindcss</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar bg-base-100 fixed z-50">
+        <div class="flex-1">
+            <a href="#home" class="btn btn-ghost normal-case text-xl pl-1 lg:pl-28">DKZhen</a>
+        </div>
+        <div class="flex-none gap-2 lg:hidden">
+            <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered" />
+            </div>
+            <div class="navbar-start">
+                <div class="dropdown dropdown-end">
+                    <label tabindex="0" class="btn btn-ghost btn-circle lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="#home">Homepage</a></li>
+                        <li><a href="#portofolio">Portofolio</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hidden lg:flex lg:pr-11 ">
+            <ul class="menu menu-horizontal p-0">
+                <li><a href="#home">Homepage</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <div id="home" class="hero min-h-screen" style="background-image: url(https://placeimg.com/1000/800/arch);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+                <h1 class="mb-5 text-3xl lg:text-5xl font-bold">Hello Everyone</h1>
+                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                    exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <!-- biodata -->
+    <div class="divider my-[3px]"></div>
+
+    <div id="about" class="flex flex-wrap lg:flex-nowrap w-full gap-4 justify-center bg-slate-700">
+        <div class="pl-10 py-5 lg:pl-36 lg:py-28 grid h-auto lg:w-[50%] card"><span
+                class="lg:pb-5 pb-3 font-bold text-[20px] lg:text-[30px]">My Career So
+                Far</span>
+            <span class="lg:text-lg text-base pr-8">Always up for a challenge, I have worked for lean start-ups and was
+                a member of the
+                first New Zealand
+                start-up to attend Y Combinator, the largest start-up accelerator in the world. From there, I worked my
+                way
+                up to Art Director and Team Lead at Appster where I oversaw the design of 30+ mobile and desktop apps.
+                Currently, I lead UI/UX design at SaaS start-up VideoMyJob.</span>
+        </div>
+        <div class="justify-center items-center grid lg:w-[50%] card pb-5">
+            <div class="gap-3 grid grid-cols-2 md:grid-cols-3">
+                <div class="badge badge-outline  p-5 text-base">UI DESIGNUX</div>
+                <div class="badge badge-outline  p-5 text-base">UI DESIGNUX</div>
+                <div class="badge badge-outline  p-5 text-base">UI DESIGNUX</div>
+                <div class="badge badge-outline  p-5 text-base">UI DESIGNUX</div>
+                <div class="badge badge-outline  p-5 text-base">UI DESIGNUX</div>
+                <div class="badge badge-outline  p-5 text-base">UI DESIGNUX</div>
+            </div>
+        </div>
+    </div>
+    <!-- portofolio -->
+    <div class="divider my-[3px]"></div>
+    <div class="pl-10 py-5 lg:pl-36 lg:pt-24 lg:pb-16 font-bold  bg-base-300 lg:text-4xl">My Portofolio</div>
+    <!-- <div id="portofolio" class=" w-full border-opacity-50 ">
+        <div class="p-11 flex justify-center items-center text-blue-500 text-4xl"> Coming SOON!</div> -->
+
+    <div
+        class="flex flex-wrap justify-center items-center min-h-screen gap-5 lg:gap-11 bg-base-300 py-7 lg:py-[2.75rem] mx-2 lg:px-0 px-5">
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl ">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl ">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl ">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <div class="sm:mr-badges md:mr-badges lg:mr-badges"><span
+                            class="bg-gray-100 text-gray-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded mr-2 dark:bg-gray-700 dark:text-gray-300">
+                            <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            3 days ago
+                        </span></div>
+                    <div class="badge badge-outline">Fashion</div>
+                    <div class="badge badge-outline">Products</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider my-[3px]"></div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer footer-center lg:p-10 bg-base-200 text-base-content rounded">
+        <div class="grid grid-cols-4 gap-2 pt-5 lg:grid-flow-col lg:gap-4 md:grid-flow-col md:gap-4">
+            <a href="https://github.com/dkzhen" class="link link-hover">Github</a>
+            <a href="https://t.me/dk_zhen1" class="link link-hover">Telegram</a>
+            <a href="https://instagram.com/dkzhen.eth" class="link link-hover">Instagram</a>
+            <a href="https://twitter.com/dk_zhen19" class="link link-hover">Twitter</a>
+            <a href="https://www.linkedin.com/in/dani-kurniawan-0ba29b168"
+                class="pl-3 lg:pl-0 md:pl-0 link link-hover">Linkedln</a>
+            <a href="https://m.facebook.com/ClasherDK07" class="link link-hover">Facebook</a>
+            <a href="https://www.reddit.com/user/dk_zhen19/" class="link link-hover">Reddit</a>
+        </div>
+        <div>
+            <p class="pb-3 lg:pb-0.5">Copyright © 2022 Dani Kurniawan - All right reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
